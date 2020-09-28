@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap');
+
+body{
+	font-family: 'Pacifico', cursive;
+}
+
+.signup-section{
+	position: relative;
+}
+aside{
+	 position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    background: #E9E4F0;
+    height: 100%;
+    padding: 50px;
+   box-shadow: 5px 0 7px #C779D0;
+}
+aside h2{
+	font-weight: 700;
+    font-size:  28px;
+    text-shadow: 0 0 8px #f05053;
+}
+
+
+.signup{}
+
+.signup h1{
+	font-family: 'Pacifico', cursive;
+	font-weight: 700;
+    font-size:  28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.signup h1 a{
+	color: #333;
+	text-decoration: none;
+}
+input.from-control{
+	border: 0  !important;
+
+	border-bottom: 3px solid #333 !important;
+	border-radius: 0; 
+}
+input.form-control:focus{
+	color: #00223E;
+	background-color: #fff;
+	border-color: #00223E !important;
+	outline: 0;
+	box-shadow: 0 0 0 0 rgba(13,110,253,0); 
+}
+label{
+	margin-right: 20px;
+}
+p{
+	font-size: 22px;
+	line-height: 1.6;
+}
+img{
+	margin-bottom: 30px;
+}
